@@ -168,11 +168,7 @@ var text = (id, text) => {
     document.getElementById(id).innerHTML = text;
 }
 
-var showTimeout = (id, time) => {
-    setTimeout(() => {
-        show(id)
-    }, time);
-}
+
 
 show("gameOver");
 text("gameOver", "<p>Please click start game to play</p>");
